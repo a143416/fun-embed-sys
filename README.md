@@ -1,2 +1,1 @@
-# fun-embeded-sys
-Fun Embedded Systems Projects
+# Fun Embedded Systems Projects
