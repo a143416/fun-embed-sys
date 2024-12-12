@@ -91,6 +91,37 @@ Launch Kid3 and open your music files or folders.
 Edit the tags in the provided fields.
 Save the changes to update the metadata.
 Tips for Tagging
+
+
+
+# mount Drive
+
+```sh
+lex@mediaserver:~ $ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           8:0    1 238.3G  0 disk 
+└─sda1        8:1    1 238.3G  0 part 
+sdb           8:16   1 119.3G  0 disk 
+└─sdb1        8:17   1 119.2G  0 part 
+mmcblk0     179:0    0  14.5G  0 disk 
+├─mmcblk0p1 179:1    0   512M  0 part /boot/firmware
+└─mmcblk0p2 179:2    0    14G  0 part /
+
+# create a mount point
+plex@mediaserver:~ $ sudo mkdir -p /media/plex/PLEXMEDIA/
+
+# mount the drive
+plex@mediaserver:~ $ sudo mount /dev/sda1 /media/plex/PLEXMEDIA
+mount: (hint) your fstab has been modified, but systemd still uses
+       the old version; use 'systemctl daemon-reload' to reload.
+plex@mediaserver:~ $ systemctl daemon-reload
+==== AUTHENTICATING FOR org.freedesktop.systemd1.reload-daemon ====
+Authentication is required to reload the systemd state.
+Authenticating as: ,,, (plex)
+Password: 
+==== AUTHENTICATION COMPLETE ====
+```
+
 Batch Processing: Many of these tools allow batch processing, which can save time if you have a large music library.
 Consistency: Ensure consistency in your tags (e.g., artist names and album titles) to improve organization.
 Backup: Before making bulk changes, consider backing up your music files.
