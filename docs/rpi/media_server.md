@@ -126,3 +126,29 @@ Batch Processing: Many of these tools allow batch processing, which can save tim
 Consistency: Ensure consistency in your tags (e.g., artist names and album titles) to improve organization.
 Backup: Before making bulk changes, consider backing up your music files.
 By using these tools, you can effectively manage and update the metadata of your music files on a Linux machine, ensuring better organization and compatibility with media servers like Plex.
+
+
+## Music Tag
+For Linux users, there are several excellent metadata editors available that can help you manage and edit audio metadata effectively. Here are a few popular options:
+
+MusicBrainz Picard:
+
+Description: MusicBrainz Picard is a powerful open-source music tagger that uses the MusicBrainz database to identify and tag your music files. It supports a wide range of audio formats and can automatically fetch metadata for your tracks.
+Features: Cluster files, lookup and scan for metadata, support for plugins, and scripting for advanced tagging.
+Installation: Available in most Linux distribution repositories. You can install it using package managers like apt, dnf, or pacman.
+Kid3:
+
+Description: Kid3 is a versatile audio tag editor that supports all major audio file formats. It allows you to edit tags in batches, making it easy to manage large music libraries.
+Features: Edit ID3v1, ID3v2, and other tag formats, convert between different tag formats, and import metadata from online databases.
+Installation: Available in most Linux distribution repositories. Install it using your package manager.
+Puddletag:
+
+Description: Puddletag is a tag editor similar to Mp3tag for Windows, but designed for Linux. It provides a spreadsheet-like interface for editing tags, making it intuitive for batch processing.
+Features: Supports multiple audio formats, scripting, and can fetch metadata from various online sources.
+Installation: Available in some Linux distribution repositories or can be installed from its website.
+EasyTAG:
+
+Description: EasyTAG is a simple and easy-to-use tag editor for audio files. It supports a wide range of formats and provides a straightforward interface for editing metadata.
+Features: Batch processing, CDDB support, and automatic tag generation from file names.
+Installation: Available in most Linux distribution repositories.
+These tools should cover a wide range of needs for managing audio metadata on Linux, allowing you to keep your music library well-organized and easily accessible through Plex and Alexa.
