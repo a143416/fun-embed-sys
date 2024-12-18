@@ -152,3 +152,34 @@ Description: EasyTAG is a simple and easy-to-use tag editor for audio files. It 
 Features: Batch processing, CDDB support, and automatic tag generation from file names.
 Installation: Available in most Linux distribution repositories.
 These tools should cover a wide range of needs for managing audio metadata on Linux, allowing you to keep your music library well-organized and easily accessible through Plex and Alexa.
+
+
+## Serve Audio
+When comparing "My Media for Alexa" and Plex in terms of integration with Alexa, there are several factors to consider:
+
+My Media for Alexa
+Pros:
+
+Voice Control: My Media for Alexa is specifically designed to integrate with Alexa, allowing you to use voice commands to play music from your personal library.
+Ease of Use: Once set up, it can be relatively straightforward to use with Alexa voice commands.
+Direct Integration: It is built to work with Alexa, so the integration is more seamless for voice commands compared to Plex.
+Cons:
+
+Setup Complexity: Requires setting up a server on your computer, which might be a bit technical for some users.
+Limited Free Features: While there is a free version, some features may require a subscription.
+Device Dependency: Your computer or server needs to be running for the service to work.
+Plex
+Pros:
+
+Robust Media Management: Plex is excellent for organizing large media libraries, offering rich metadata and a wide range of media types.
+Multi-Platform Support: Works across various devices and platforms, not just Alexa.
+Free Tier Available: Offers a free tier with basic functionality.
+Cons:
+
+Limited Alexa Integration: Plex's integration with Alexa is not as seamless for voice control as My Media. You might find it less intuitive to use voice commands for specific tracks or playlists.
+Metadata Issues: As you've experienced, Plex can sometimes struggle with correctly identifying and organizing music metadata, which can affect playback through Alexa.
+Complex Setup: Similar to My Media, setting up Plex can be complex, especially if you want to optimize it for music playback.
+Conclusion
+If your primary goal is to have a smooth voice-controlled experience with Alexa, "My Media for Alexa" is likely the better choice, as it is specifically designed for this purpose. However, if you need a more comprehensive media management solution that supports various media types and platforms, Plex might be more suitable, though it may not offer the best Alexa integration for music playback.
+
+Ultimately, the decision depends on your specific needs: whether you prioritize voice control with Alexa or broader media management capabilities.
