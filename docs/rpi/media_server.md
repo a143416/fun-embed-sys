@@ -183,3 +183,8 @@ Conclusion
 If your primary goal is to have a smooth voice-controlled experience with Alexa, "My Media for Alexa" is likely the better choice, as it is specifically designed for this purpose. However, if you need a more comprehensive media management solution that supports various media types and platforms, Plex might be more suitable, though it may not offer the best Alexa integration for music playback.
 
 Ultimately, the decision depends on your specific needs: whether you prioritize voice control with Alexa or broader media management capabilities.
+
+
+
+## My media Server for Alexa
+https://www.mymediaalexa.com/home/raspberrypi
