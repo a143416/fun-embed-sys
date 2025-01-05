@@ -9,8 +9,7 @@ When Recalbox on a Raspberry Pi resets its controller configuration after each b
 
 Recalbox requires write access to its configuration files. If the file system is mounted as read-only, changes will not persist.
 
-    Solution: Ensure that the /recalbox/share partition (where settings are stored) is writable.
-        Run this command via SSH or terminal:
+Solution: Ensure that the /recalbox/share partition (where settings are stored) is writable. Run this command via SSH or terminal:
 ```sh
 mount | grep recalbox/share
 ```
@@ -20,3 +19,7 @@ If it shows read-only (ro), remount it as read-write:
 ```sh
 mount -o remount,rw /recalbox/share
 ```
+
+## Dashboard
+
+Type this to browser: `http://recalbox.local/`
