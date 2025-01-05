@@ -23,3 +23,14 @@ mount -o remount,rw /recalbox/share
 ## Dashboard
 
 Type this to browser: `http://recalbox.local/`
+
+
+## Netwrok
+
+```sh
+nano /recalbox/share/system/recalbox.conf
+
+wifi.enabled=1
+wifi.ssid=YourNetworkSSID
+wifi.key=YourNetworkPassword
+```
