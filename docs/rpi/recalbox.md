@@ -34,7 +34,14 @@ wifi.enabled=1
 wifi.ssid=YourNetworkSSID
 wifi.key=YourNetworkPassword
 ```
-## Check MD%
+## Check MD5
 ```sh
 md5sum <filename>
 ```
+
+## Check Devices on Network
+```sh
+sudo apt install nmap
+sudo nmap -sn -PR 192.168.0.5/24
+```
+##
