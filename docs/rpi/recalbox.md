@@ -34,3 +34,7 @@ wifi.enabled=1
 wifi.ssid=YourNetworkSSID
 wifi.key=YourNetworkPassword
 ```
+## Check MD%
+```sh
+md5sum <filename>
+```
