@@ -188,3 +188,9 @@ Ultimately, the decision depends on your specific needs: whether you prioritize 
 
 ## My media Server for Alexa
 https://www.mymediaalexa.com/home/raspberrypi
+
+
+## Copy Files over Netwrok
+```sh
+scp "/home/saman/Desktop/Movies/The Rookies/Season 02/"*.mp4 plex@mediaserver.local:"/media/plex/PLEXMEDIA/TV\ Shows/The\ Rookies/Season\ 02/" 
+```
