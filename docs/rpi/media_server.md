@@ -192,5 +192,5 @@ https://www.mymediaalexa.com/home/raspberrypi
 
 ## Copy Files over Netwrok
 ```sh
-scp "/home/saman/Desktop/Movies/The Rookies/Season 02/"*.mp4 plex@mediaserver.local:"/media/plex/PLEXMEDIA/TV\ Shows/The\ Rookies/Season\ 02/" 
+scp "/home/saman/Desktop/Movies/The Rookies/Season 02/"*.mp4 plex@mediaserver.local:"/media/plex/PLEXMEDIA/TV Shows/The Rookies/Season 02/" 
 ```
