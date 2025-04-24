@@ -194,3 +194,5 @@ https://www.mymediaalexa.com/home/raspberrypi
 ```sh
 scp "/home/saman/Desktop/Movies/The Rookies/Season 02/"*.mp4 plex@mediaserver.local:"/media/plex/PLEXMEDIA/TV Shows/The Rookies/Season 02/" 
 ```
+
+http://mediaserver.local:32400/web/index.html
