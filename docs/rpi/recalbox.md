@@ -1,6 +1,6 @@
 ```sh
 ssh root@recalbox.local
-pass: recallboxroot
+pass: recalboxroot
 ```
 
 ## Issue 1
@@ -45,3 +45,6 @@ sudo apt install nmap
 sudo nmap -sn -PR 192.168.0.5/24
 ```
 ##
+
+## Theme
+https://wiki.recalbox.com/en/tutorials/frontend-customization/add-themes-into-emulationstation
