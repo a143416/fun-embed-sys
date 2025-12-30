@@ -48,3 +48,25 @@ sudo nmap -sn -PR 192.168.0.5/24
 
 ## Theme
 https://wiki.recalbox.com/en/tutorials/frontend-customization/add-themes-into-emulationstation
+
+## Controller First Setup
+
+Quick Fixes (Try These First)
+
+    Restart System: A simple reboot (via power cycle or reboot command via SSH) can resolve temporary glitches.
+    HotKey Combo: Press HotKey + Start (often the "Select" button on your controller) to bring up the in-game menu or exit to the system menu.
+    Keyboard: Connect a USB keyboard to navigate settings and remap your controller. 
+    
+If the Menu is Still Inaccessible (Controller Not Working at All)
+
+    Reset Controller: For Bluetooth controllers, press the small reset button on the controller itself (often a tiny pinhole).
+    Reconfigure in Settings:
+        Navigate to Main Menu > Controller Settings (use keyboard if needed).
+        Select "Configure a controller" and follow prompts to map buttons.
+    Delete Config Files (Advanced):
+        Connect via SSH or access files via network share (\\SHARE\system).
+        Delete es_input.cfg (in \SHARE\system\.emulationstation) and DEFAULT.cfg (in \SHARE\system\configs\retroarch\inputs).
+        Restart the system. 
+```sh
+nano configs/retroarch/inputs/DEFAULT.cfg
+```
